@@ -1,2 +1,0 @@
-# connect-four
-# connect-four
