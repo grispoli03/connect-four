@@ -1,4 +1,4 @@
-#!/Users/gaetanorispoli/Documents/dev/connect-four/venv/bin/python3.9
+#!/Users/gaetanorispoli/Documents/dev/pong/venv/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
