@@ -5,7 +5,7 @@ import sys
 pygame.init()
 
 size = width, height = 320, 240
-speed = [2, 2]
+dx, dy = 2, 2
 black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
@@ -20,9 +20,9 @@ while True:
 
     ballrect = ballrect.move(speed)
     if ballrect.left < 0 or ballrect.right > width:
-        speed[0] = -speed[0]
+        dx = -dx
     if ballrect.top < 0 or ballrect.bottom > height:
-        speed[1] = -speed[1]
+        dy = -dy
 
     screen.fill(black)
     screen.blit(ball, ballrect)
